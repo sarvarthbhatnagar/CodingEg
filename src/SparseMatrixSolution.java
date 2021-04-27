@@ -8,7 +8,7 @@ import java.util.*;
  *
  * This is better than maintaining 3 arrays(one for row, one for col and one for value)
  * The retrieval in array involves searching the array for matching value in row and col array
- * Hence, retrieval is O(n) in that case but for this approach it would be O(n)
+ * Hence, retrieval is O(n) in that case but for this approach it would be O(1)
  */
 class SparseMatrix {
 
