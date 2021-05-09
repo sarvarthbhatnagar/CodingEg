@@ -65,6 +65,7 @@ class SparseMatrix {
     }
 
     private int getRowMax() {
+        String s = null;
         return _matrixData.length;
     }
 
